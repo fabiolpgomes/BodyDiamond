@@ -1,0 +1,334 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+* {
+  font-family: "roboto";
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.nav-link,
+a {
+  gap: 20px;
+  color: #070e00;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-link-home {
+  color: #e1dff7;
+}
+
+.main-header {
+  background-image: url("./assets/cabecalho_tratamento_facial.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  padding: 80px 0;
+  position: relative;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-size: 18px;
+  color: #000309;
+}
+
+.text-left1 {
+  color: rgb(201, 145, 108);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.text-left2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.header-text-toxina {
+  display: block;
+  font-size: 22px;
+  color: #2f2f30;
+  width: 500px;
+  margin: left;
+  padding: 10px 0;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+ }
+
+.text-main1,.text-main2 {
+  text-align:center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: rgb(149, 101, 12);
+}
+
+.text-main2 {
+  color: #0e0d0d;
+}
+
+.header-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+p {
+  color: #a4a29f;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+button {
+  color: white;
+  background-color: rgb(201, 145, 108);
+  border: 1px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  width: fit-content;
+  padding: 2% 7%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #818895;
+}
+
+.box-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #d4b88d;
+  column-count: 0 3 ;
+}
+
+.box-info {
+  display: flex;
+  flex: 1;
+  height: 450px;
+  width: auto !important;
+  font-size: small;
+  flex-direction: column;
+ justify-content: flex-start;
+  
+}
+
+.box-text {
+  position: relative;
+  flex: 1;
+  justify-content: center;
+  max-width: 250px;
+  height: 300px;
+  margin-top: 1px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: white;
+}
+
+h3 {
+    text-align: center;
+}
+
+.card p {
+  text-align: center;
+}
+
+.quote-section {
+  width: 100%;
+  height: 400px;
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.quote-text p {
+  font-size: 28px;
+  font-style: italic;
+}
+
+.quote-text {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.quote-section span {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.sign-up-div {
+  width: 75%;
+  background-color: #3882f6;
+  margin: 70px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid #3882f6;
+  border-radius: 10px;
+}
+
+.sign-up-text {
+  color: #e5e7eb;
+  padding: 30px;
+}
+
+.sign-up-text h3 {
+  margin-bottom: 0;
+}
+
+.sign-up-text p {
+  margin-top: 0;
+}
+
+.sign-up-button {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up-button button {
+  border: 1px solid white;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 920px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-buttons {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .main-header {
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+
+  .header-text {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .header-text p,
+  .header-image p {
+    font-size: 16px;
+  }
+
+  .header-image {
+    width: 100%;
+    height: 200px;
+    margin: 20px auto;
+  }
+
+  button {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .main-cards {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 45%;
+    height: 250px;
+    margin: 20px 0;
+  }
+
+  .card img {
+    height: 180px;
+  }
+
+  .quote-section {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .quote-text {
+    width: 80%;
+    padding: 40px 0;
+  }
+
+  .quote-text p {
+    font-size: 26px;
+  }
+
+  .sign-up-div {
+    width: 90%;
+    margin: 30px auto;
+    flex-direction: column;
+  }
+
+  .sign-up-text {
+    width: 80%;
+    padding: 15px;
+  }
+
+  .sign-up-button {
+    padding-bottom: 18px;
+  }
+
+  footer {
+    height: 40px;
+    font-size: 14px;
+  }
+}
