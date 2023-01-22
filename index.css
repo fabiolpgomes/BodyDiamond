@@ -139,8 +139,7 @@ button:hover {
   height: 350px;
   width: auto !important;
   font-size: small;
-  flex-direction: column;
-   
+  flex-direction: column; 
 }
 
 .box-text {
