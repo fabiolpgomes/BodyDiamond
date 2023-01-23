@@ -7,17 +7,20 @@
 * {
   font-family: "roboto";
   font-size: 18px;
+  padding: 0 10px 0 10px;
 }
 
 header {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin: 10px;
@@ -78,10 +81,11 @@ a {
   display: flex;
   flex-direction: column;
   padding-top: 10px;
- }
+}
 
-.text-main1,.text-main2 {
-  text-align:center;
+.text-main1,
+.text-main2 {
+  text-align: center;
   font-size: 36px;
   font-weight: bolder;
   color: rgb(149, 101, 12);
@@ -89,6 +93,11 @@ a {
 
 .text-main2 {
   color: #0e0d0d;
+}
+
+.main-card{
+display: flex;
+flex-direction: row;
 }
 
 .header-image {
@@ -126,11 +135,13 @@ button:hover {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 15px;
-  background-color: #f1dab7;
-  column-count: 0 4 ;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+}
+
+.card-img-top{
+  padding-left: 20px;
 }
 
 .box-info {
@@ -139,7 +150,7 @@ button:hover {
   height: 350px;
   width: auto !important;
   font-size: small;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .box-text {
@@ -150,11 +161,10 @@ button:hover {
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 10px;
-  background:whitesmoke;
 }
 
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .card p {
