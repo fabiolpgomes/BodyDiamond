@@ -130,6 +130,10 @@ p {
   background-color: #818895;
 }
 
+.fa-whatsapp {
+  margin-top: 16px;
+}
+
 .box-container {
   width: 100%;
   display: flex;
