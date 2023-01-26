@@ -4,16 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Body Diamond Estética</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css">
+
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <img class="logo" src="./assets/BOdY logo 1.png" width="70px" height="70px">
-
+        <nav class="navbar bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/BOdY logo 1.png" width="70" height="70" class="d-inline-block align-text-top">
+                BODY DIAMOND
+            </a>
             <div class="nav-link">
                 <a href="#home">INÍCIO</a>
                 <a href="#section1">SERVIÇOS</a>
@@ -21,12 +26,17 @@
                 <a href="#section3">DEPOIMENTOS</a>
                 <a href="#section4">CONTATO</a>
             </div>
+
         </nav>
 
         <div class="main-header">
             <div class="header-text">
                 <spam class="text-left1" id="home">TRATAMENTO FACIAL</spam>
                 <spam class="text-left2">Previna os Sinais do Tempo</spam>
+                <div class="header-image" id="home">
+                    <img src="./assets/cabecalho_tratamento_facial600px.jpg" alt="Imagefrontal" />
+                </div>
+
                 <div class="header-text-toxina">
                     <p>
                         Indicados para prevenir ou combater consequências do envelhecimento cutâneo como,
@@ -35,16 +45,14 @@
                         profissionais especializados para proporcionar a você uma pele bonita e saudável
                         com máxima eficiência e segurança.
                     </p>
-                    <div>
-                        <a target="_blank" class="fcc-btn" href="mailto:dra.bodydiamondgomes@gmail.com" rel="noreferrer"
-                            target="_blank" title="Enviar e-mail">MARQUE A SUA AVALIAÇÃO GRÁTIS</a>
-                    </div>
                 </div>
-
-                <div class="header-image" id="home">
-                    <img src="./assets/cabecalho_tratamento_facial600px.jpg" alt="Imagefrontal" />
+                <div>
+                    <a target="_blank" class="fcc-btn" href="mailto:dra.bodydiamondgomes@gmail.com" rel="noreferrer"
+                        target="_blank" title="Enviar e-mail">MARQUE A SUA AVALIAÇÃO GRÁTIS</a>
                 </div>
             </div>
+
+        </div>
         </div>
     </header>
 
@@ -149,12 +157,63 @@
                 </div>
             </div>
         </div>
+        <hr />
         <div>
-            __________________________________________________________________________________________________________________________
+            <div className="sobre" id="section2">
+                <h2>Sobre a Body Diamond.</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="image">
+                        <img src="./assets/Cris resize.jpg" alt="imageDraCris">
+                    </div>
+                    <div class="sobre-texto">
+                        <p>
+                            Prazer, eu sou a Dra. Cristina, graduada em Farmácia e Bioquímica com especialização
+                            em Análises Clínicas e Toxicológicas, pós graduada em Marketing e em Farmácia Estética, uma
+                            entusiasta
+                            da auto estima, empoderamento feminino e apaixonada por beleza.
+                        </p>
+                        <p>
+                            Pensando nisso criei a Body Diamond, um novo conceito em procedimentos estéticos. E você
+                            pode perguntar,
+                            qual a origem desse nome?
+                        </p>
+                        <p>
+                            Esse nome surgiu da lapidacaodas moléculas de carbono sob determinadas condições de
+                            temperatura e pressão
+                            originando o "diamante".
+                        </p>
+                        <p>
+                            Nada mais justo do que trazer o conceito de lapidação para o segmento da estética.
+                        </p>
+                        <h3>Vem comigo, vamos lapidar essa beleza bruta até alcançar a plenitude</h3>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="section2" id="section2">
-            <h1>SOBRE</h1>
-        </div>
+        <hr />
+        <h2> O que os clientes falam da Body Diamond...</h2>
+        <section class="cards" style="width: 18rem;">
+            <div class="card">
+                <h3>Ana</h3>
+                <img class="user" src="./assets/Ana.jpeg" alt="AnaPhoto" width="120" height="120">
+                <div class="stars">
+                    <img src="./assets/star.png" alt="StarImage" width="20" height="20">
+                    <img src="./assets/star.png" alt="StarImage" width="20" height="20">
+                    <img src="./assets/star.png" alt="StarImage" width="20" height="20">
+                    <img src="./assets/star.png" alt="StarImage" width="20" height="20">
+                    <img src="./assets/star.png" alt="StarImage" width="20" height="20">
+                </div>
+                <p> Adoro o atendimento da Dra. Cris, os resultados sempre me surpreende, além de ser uma pessoa
+                    adoravel.
+                </p>
+
+            </div>
+
+
+        </section>
+
 
 
 
