@@ -8,16 +8,15 @@
 #menu {
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
-  height: 90px;
+  height: 50px;
   background-color: rgb(201, 145, 108);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
   z-index: 99999999;
   padding: 5px;
+  flex-direction: row-reverse;
 }
 
 ul {
@@ -54,27 +53,34 @@ a {
 }
 
 .main-header {
+  display: flex;
   flex-direction: column;
   display: flex;
-  padding: 90px;
+  padding: 60px;
 }
 
 .header-text {
   display: flex;
-  flex-direction: column;
-  flex: 1;
+  flex-direction: row;
+  column-gap: 90px;
   color: #000309;
+  align-content: center;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
 }
 
 .text-left1 {
   color: rgb(201, 145, 108);
   font-size: 50px;
   font-weight: 700;
+  align-items: center;
 }
 
 .text-left2 {
   font-size: 40px;
   font-weight: 700;
+  gap: 40px;
 }
 
 .header-text-toxina {
@@ -138,7 +144,6 @@ p {
   border-radius: 20px;
   width: fit-content;
   padding: 2% 5%;
-
 }
 
 .fcc-btn:hover {
@@ -342,9 +347,6 @@ footer address {
   flex-direction: row;
 }
 
-
-
-
 @media only screen and (max-width: 920px) {
   * {
     font-family: "roboto";
@@ -354,11 +356,10 @@ footer address {
   #menu {
     background-color: rgb(201, 145, 108);
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    flex-direction: row;
     align-items: center;
     z-index: 99999999;
-    padding: 5px;
+    padding: 2px;
   }
 
   ul {
@@ -366,11 +367,36 @@ footer address {
     display: flex;
     align-items: center;
     height: 50%;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
   }
 
-  li {
-    margin-right: 10px;
+  .image-nav {
+    padding-bottom: 10px;
+    margin-left: 0;
+  }
+  .image-nav:hover {
+    color: #ffff;
+  }
+
+  .main-header {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    padding: 60px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    color: #000309;
+    align-content: center;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
   }
 
   .container {
@@ -409,8 +435,8 @@ footer address {
   }
 
   .header-image {
-    width: 280px;
-    height: 200px;
+    width: 250px;
+    height: 35px;
   }
 
   .text-left1 {
@@ -465,10 +491,9 @@ footer address {
     cursor: pointer;
     background-color: #818895;
     color: #ffff;
-    
   }
 
-    .fa-whatsapp {
+  .fa-whatsapp {
     margin-top: 16px;
     z-index: 100000;
   }
@@ -549,12 +574,93 @@ footer address {
     flex-direction: column;
   }
 
-  footer {
-    height: 40px;
-    font-size: 14px;
+  .dark-background {
+    background-color: #c9916c;
+    color: white;
+    width: 100%;
   }
 
-  .dark-background {
+  .col {
+    float: left;
+  }
+
+  .col-2 {
+    width: 60%;
+  }
+
+  .col-middle {
+    margin: 0 10%;
+  }
+
+  .clearfix {
+    clear: both;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px 20px;
+    width: 100%;
+  }
+
+  footer address {
+    font-style: normal;
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+
+  .fcc-btn-contato {
+    color: white !important;
+    background-color: #935917;
+    border-radius: 10px;
+    border: 1px;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 2% 5%;
+  }
+
+  .fcc-btn-contato:hover {
+    cursor: pointer;
+    background-color: #818895;
+    color: #ffff;
+  }
+
+  .buttons-contato {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .redes-sociais {
+    text-decoration: none;
+    color: white !important;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .redes-sociais:hover {
+    cursor: pointer;
+  }
+
+  .map-frame {
+    float: right;
+    width: 50%;
+  }
+
+  .dev {
+    display: flex;
+    flex-direction: column;
   }
 }
