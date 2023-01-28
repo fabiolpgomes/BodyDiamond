@@ -1,6 +1,6 @@
 # BodyDiamond
 
-# ![WebApp](https://iharsh234.github.io/WebApp/images/demo/demo_landing.JPG)
+# ![WebApp](https://imgur.com/UeFDhM1)
 # WebApp
 <table>
 <tr>
