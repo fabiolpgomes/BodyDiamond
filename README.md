@@ -1,11 +1,19 @@
 # BodyDiamond
 
+<<<<<<< HEAD
 # ![WebApp](https://iharsh234.github.io/WebApp/images/demo/demo_landing.JPG)
+=======
+# 
+>>>>>>> 90d69e534235bd70f85416acbc41fa12d908e51a
 # WebApp
 <table>
 <tr>
 <td>
+<<<<<<< HEAD
   A webapp using Quandl API to display history of stock growth in a given period of time. It helps predict the growth of stocks from the  charts of stock performace in any period of time. It helps to judge stocks, with the principle of momentum investing, which returns 1% per month on average.
+=======
+  A website using Quandl API to display history of stock growth in a given period of time. It helps predict the growth of stocks from the  charts of stock performace in any period of time. It helps to judge stocks, with the principle of momentum investing, which returns 1% per month on average.
+>>>>>>> 90d69e534235bd70f85416acbc41fa12d908e51a
 </td>
 </tr>
 </table>
@@ -18,6 +26,7 @@ Here is a working live demo :  https://iharsh234.github.io/WebApp/
 ## Site
 
 ### Landing Page
+<<<<<<< HEAD
 Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol will be added soon.
 
 ![](https://iharsh234.github.io/WebApp/images/demo/web_app_face.JPG)
@@ -83,3 +92,43 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 MIT © [Harsh Vijay ](https://github.com/iharsh234)
 
+=======
+Currently developed in Portuguese, to meet customer demand. It is an Esthetic Clinic, located in São Paulo/Brazil. Work carried out as remote freelance.
+
+![](https://iharsh234.github.io/WebApp/images/demo/web_app_face.JPG)
+
+[Imgur](https://i.imgur.com/UeFDhM1.png)
+
+### Charts
+
+![](https://iharsh234.github.io/WebApp/images/demo/demo_chart3.JPG)
+
+
+## Mobile support
+The WebApp supports devices of all sizes (Responsive) and all operating systems, and consistent improvements will be made as per customer demand.
+
+![](https://iharsh234.github.io/WebApp/images/demo/mobile.png)
+
+
+
+
+## [Usage](https://iharsh234.github.io/WebApp/) 
+
+
+## Built with 
+
+- [jQuery - Ajax](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
+- [Google Chart API](https://developers.google.com/chart/interactive/docs/quick_start) - Free , Rich Gallery , Customizable and Cross-browser compatible.
+- [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
+
+
+## To-do
+- On demand
+
+## Team
+[Fabio Gomes](https://imgur.com/GJLS9gP)
+
+
+
+
+>>>>>>> 90d69e534235bd70f85416acbc41fa12d908e51a
