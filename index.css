@@ -3,7 +3,6 @@
 * {
   font-family: "roboto";
   font-size: 18px;
-
 }
 
 #menu {
@@ -18,7 +17,7 @@
   justify-content: space-between;
   align-items: center;
   z-index: 99999999;
-  padding: 5px ; 
+  padding: 5px;
 }
 
 ul {
@@ -142,15 +141,17 @@ p {
 }
 
 .box-container {
-  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 15px;
+  align-items: center;
+  gap: 24px;
   flex-wrap: wrap;
-  padding: auto;
+  align-content: stretch;
+  justify-content: space-around;
 }
 
+.card-body {
+  height: 300px;
+}
 .card-img-top {
   width: auto;
   align-items: center;
@@ -180,7 +181,8 @@ h3 {
   color: rgb(149, 101, 12);
 }
 
-h2 {
+h2,
+h4 {
   text-align: center;
   color: rgb(6, 6, 6);
 }
@@ -206,8 +208,9 @@ h2 {
 .container {
   width: 100%;
   margin: 0, auto;
- padding: 50px 0;
+  padding: 50px 0;
 }
+
 .sobre-texto {
   position: relative;
   flex: 1;
@@ -222,12 +225,16 @@ h2 {
 }
 
 .cards {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  max-width: 980px;
-  margin: 25px;
-  grid-gap: 10px;
-  }
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  align-items: center;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-around;
+}
 
 .user {
   width: 100px;
@@ -250,7 +257,6 @@ h2 {
   background-color: #c9916c;
   color: white;
   width: 100%;
-  
 }
 
 .col {
@@ -305,7 +311,7 @@ footer address {
   align-items: center;
 }
 
-.redes-sociais{
+.redes-sociais {
   text-decoration: none;
   color: white !important;
   font-size: 20px;
@@ -318,11 +324,9 @@ footer address {
   cursor: pointer;
 }
 
-
 .map-frame {
   float: right;
   width: 50%;
- 
 }
 
 @media only screen and (max-width: 920px) {
@@ -351,7 +355,7 @@ footer address {
     align-items: center;
     height: 100%;
     flex-direction: column;
-   }
+  }
 
   li {
     margin-right: 10px;
@@ -468,7 +472,7 @@ footer address {
   .box-container {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 24px;
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: space-around;
