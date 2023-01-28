@@ -3,6 +3,7 @@
 * {
   font-family: "roboto";
   font-size: 18px;
+
 }
 
 #menu {
@@ -10,14 +11,14 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  height: 90px;
   background-color: rgb(201, 145, 108);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   z-index: 99999999;
-  padding: 5px;
+  padding: 5px ; 
 }
 
 ul {
@@ -25,7 +26,7 @@ ul {
   display: flex;
   align-items: center;
   height: 100%;
-  margin: 0;
+  flex-direction: row;
 }
 
 li {
@@ -193,7 +194,6 @@ h2 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  
 }
 
 .image {
@@ -203,10 +203,10 @@ h2 {
   height: 400px;
 }
 
-.container{
-  display: flex;
-
-
+.container {
+  width: 100%;
+  margin: 0, auto;
+ padding: 50px 0;
 }
 .sobre-texto {
   position: relative;
@@ -240,20 +240,17 @@ h2 {
   background-color: #f2eeda;
   display: flex;
   flex-direction: column;
-  width:100%;
-  height:auto;
   align-items: center;
   padding: 25px 20px;
-  width: 240px;
   box-shadow: 6px 6px 10px #00030932;
-  height:auto;
-  
+  height: auto;
 }
 
 .dark-background {
   background-color: #c9916c;
   color: white;
-  height: 400px;
+  width: 100%;
+  
 }
 
 .col {
@@ -261,11 +258,11 @@ h2 {
 }
 
 .col-3 {
-  width: 40%;
+  width: 60%;
 }
 
 .col-middle {
-  margin: 0 5%;
+  margin: 0 10%;
 }
 
 .clearfix {
@@ -273,16 +270,15 @@ h2 {
 }
 
 footer {
-  font-size: 1.9em;
   text-align: center;
-  padding: 40 100px;
-  margin-bottom: 25px;
+  padding: 20px 20px;
+  width: 100%;
 }
 
 footer address {
   font-style: normal;
   font-size: 1em;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .fcc-btn-contato {
@@ -309,30 +305,25 @@ footer address {
   align-items: center;
 }
 
-footer .social-links {
+.redes-sociais{
   text-decoration: none;
   color: white !important;
   font-size: 20px;
-}
-
-.social-links:hover {
-  cursor: pointer;
-}
-
-footer .li-social-links {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.map-frame {
-  height: 375px;
-  float: right;
-  width: 60%;
+.redes-sociais:hover {
+  cursor: pointer;
 }
 
 
-
+.map-frame {
+  float: right;
+  width: 50%;
+ 
+}
 
 @media only screen and (max-width: 920px) {
   * {
@@ -359,14 +350,12 @@ footer .li-social-links {
     display: flex;
     align-items: center;
     height: 100%;
-    margin: 0;
-  }
+    flex-direction: column;
+   }
 
   li {
     margin-right: 10px;
   }
-
-  
 
   .container-fluid {
     display: flex;
@@ -484,17 +473,17 @@ footer .li-social-links {
     align-content: stretch;
     justify-content: space-around;
   }
-  
-  .card, .cards{
-  display: flex;
-  height: 360px;
-  margin: 20px;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: center;
+
+  .card,
+  .cards {
+    display: flex;
+    height: 360px;
+    margin: 20px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
     justify-content: space-around;
   }
-
 
   .card img {
     height: 150px;
@@ -509,15 +498,15 @@ footer .li-social-links {
     max-height: fit-content;
   }
 
-  .card-depoiments{
+  .card-depoiments {
     display: flex;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: space-around;
-    width:100%;
-   height:auto;
+    width: 100%;
+    height: auto;
   }
   .image {
     display: flex;
@@ -538,9 +527,6 @@ footer .li-social-links {
     font-family: "roboto";
     font-size: 22px;
   }
-
-
-
 
   footer {
     height: 40px;
