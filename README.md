@@ -51,12 +51,8 @@ The WebApp supports devices of all sizes (Responsive) and all operating systems,
 - On demand
 
 ## Team
-
-[![Fabio Gomes](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/iharsh234)  (https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://www.quandl.com/)
----|---
-
-## [License](https://github.com/iharsh234/WebApp/blob/master/LICENSE.md)
-
+[Fabio Gomes](https://imgur.com/GJLS9gP)
+Fabio Gomes
 
 
 
