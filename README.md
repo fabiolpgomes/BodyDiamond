@@ -22,7 +22,7 @@ Currently developed in Portuguese, to meet customer demand. It is an Esthetic Cl
 
 ![](https://iharsh234.github.io/WebApp/images/demo/web_app_face.JPG)
 
-
+[Imgur](https://i.imgur.com/UeFDhM1.png)
 
 ### Charts
 
@@ -52,7 +52,7 @@ The WebApp supports devices of all sizes (Responsive) and all operating systems,
 
 ## Team
 [Fabio Gomes](https://imgur.com/GJLS9gP)
-Fabio Gomes
+
 
 
 
