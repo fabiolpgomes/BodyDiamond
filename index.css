@@ -32,6 +32,16 @@ li {
   margin-right: 10px;
 }
 
+.image-nav{
+  padding-bottom: 15px;
+  margin-left: 0;
+  font-size: xx-large;
+  color: #FDCA40;
+}
+.image-nav:hover{
+  color: #ffff;
+}
+
 a {
   gap: 20px;
   color: #ffff;
@@ -230,11 +240,8 @@ h4 {
   margin: 10px;
   align-items: center;
   align-items: center;
-  gap: 24px;
-  flex-wrap: wrap;
-  align-content: stretch;
-  justify-content: space-around;
-}
+  gap: 15px;
+  }
 
 .user {
   width: 100px;
@@ -322,11 +329,17 @@ footer address {
 
 .redes-sociais:hover {
   cursor: pointer;
+ 
 }
 
 .map-frame {
   float: right;
   width: 50%;
+}
+
+.dev{
+  display: flex;
+  flex-direction: row;
 }
 
 @media only screen and (max-width: 920px) {
@@ -495,7 +508,7 @@ footer address {
   }
 
   .row {
-    width: 100%;
+    width: 350px
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -522,8 +535,7 @@ footer address {
   .sobre-texto {
     position: relative;
     flex: 1;
-    width: 700px;
-    height: 490px;
+    height: 690px;
     margin: 20px;
     margin-bottom: 10px;
     border-radius: 5px;
