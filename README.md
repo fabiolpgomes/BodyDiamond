@@ -1,6 +1,6 @@
 # BodyDiamond
 
-# ![WebApp](https://imgur.com/UeFDhM1](https://i.imgur.com/UeFDhM1.png)
+# 
 # WebApp
 <table>
 <tr>
