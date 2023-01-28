@@ -1,65 +1,86 @@
 # BodyDiamond
 
-============
-[![GitHub Stars](https://img.shields.io/github/stars/IgorAntun/node-chat.svg)](https://github.com/IgorAntun/node-chat/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/IgorAntun/node-chat.svg)](https://github.com/IgorAntun/node-chat/issues) [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/IgorAntun/node-chat) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://igorantun.com/chat) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/IgorAntun/node-chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+# ![WebApp](https://iharsh234.github.io/WebApp/images/demo/demo_landing.JPG)
+# WebApp
+<table>
+<tr>
+<td>
+  A webapp using Quandl API to display history of stock growth in a given period of time. It helps predict the growth of stocks from the  charts of stock performace in any period of time. It helps to judge stocks, with the principle of momentum investing, which returns 1% per month on average.
+</td>
+</tr>
+</table>
 
-This is a node.js chat application powered by SockJS and Express that provides the main functions you'd expect from a chat, such as emojis, private messages, an admin system, etc.
 
-![Chat Preview](http://i.imgur.com/lgRe8z4.png)
+## Demo
+Here is a working live demo :  https://iharsh234.github.io/WebApp/
 
----
 
-## Buy me a coffee
+## Site
 
-Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
+### Landing Page
+Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol will be added soon.
 
-<a href="https://www.buymeacoffee.com/igorantun" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+![](https://iharsh234.github.io/WebApp/images/demo/web_app_face.JPG)
 
----
+### Query Filled Form
+![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
 
-## Features
+### Charts
+![](https://iharsh234.github.io/WebApp/images/demo/demo_chart1.JPG)
+![](https://iharsh234.github.io/WebApp/images/demo/demo_chart2.JPG)
+![](https://iharsh234.github.io/WebApp/images/demo/demo_chart3.JPG)
 
-- Material Design
-- Emoji support
-- User @mentioning
-- Private messaging
-- Message deleting (for admins)
-- Ability to kick/ban users (for admins)
-- See other user's IPs (for admins)
-- Other awesome features yet to be implemented
 
-![User Features](http://i.imgur.com/WbF1fi2.png)
+## Mobile support
+The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
-![Admin Features](http://i.imgur.com/xQFaadt.png)
+![](https://iharsh234.github.io/WebApp/images/demo/mobile.png)
 
-#### There are 3 admin levels:
 
-- **Helper:** Can delete chat messages
-- **Moderator:** The above plus the ability to kick and ban users
-- **Administrator:** All the above plus send global alerts and promote/demote users
 
----
 
-## Setup
+## [Usage](https://iharsh234.github.io/WebApp/) 
 
-Clone this repo to your desktop and run `npm install` to install all the dependencies.
+### Development
+Want to contribute? Great!
 
-You might want to look into `config.json` to make change the port you want to use and set up a SSL certificate.
+To fix a bug or enhance an existing module, follow these steps:
 
----
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request 
 
-## Usage
+### Bug / Feature Request
 
-After you clone this repo to your desktop, go to its root directory and run `npm install` to install its dependencies.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/iharsh234/WebApp/issues/new) by including your search query and the expected result.
 
-Once the dependencies are installed, you can run `npm start` to start the application. You will then be able to access it at localhost:3000
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/iharsh234/WebApp/issues/new). Please include sample queries and their corresponding results.
 
-To give yourself administrator permissions on the chat, you will have to type `/role [your-name]` in the app console.
 
----
+## Built with 
 
-## License
+- [jQuery - Ajax](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
+- [Google Chart API](https://developers.google.com/chart/interactive/docs/quick_start) - Free , Rich Gallery , Customizable and Cross-browser compatible.
+- [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
 
-> You can check out the full license [here](https://github.com/IgorAntun/node-chat/blob/master/LICENSE)
 
-This project is licensed under the terms of the **MIT** license.
+## To-do
+- Add BSE (India) Symbol to the current App.
+- Decide comparison models of Stocks. (suggestions are most welcome).
+- Another WebApp, capable of comparing at least 10 stocks.
+
+## Team
+
+[![Harsh Vijay](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/iharsh234)  | [![Quandl.com](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://www.quandl.com/)
+---|---
+[Harsh Vijay ](https://github.com/iharsh234) |[Quandl](https://www.quandl.com)
+
+## [License](https://github.com/iharsh234/WebApp/blob/master/LICENSE.md)
+
+MIT © [Harsh Vijay ](https://github.com/iharsh234)
+
+
