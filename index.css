@@ -68,6 +68,7 @@ a {
   justify-content: space-around;
   padding: 10px;
   align-items: center;
+  border-radius: 10px;
 }
 
 .text-left1 {
@@ -146,7 +147,7 @@ p {
   padding: 2% 5%;
 }
 
-.fcc-btn:hover {
+.fcc-btn:hover {c
   cursor: pointer;
   background-color: #818895;
   color: #ffff;
